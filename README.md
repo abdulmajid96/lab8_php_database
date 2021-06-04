@@ -17,7 +17,7 @@ melalui browser: http://localhost/phpmyadmin/
 
 ## Membuat Database
 Membuat database latihan1.
-```query
+```sql
 CREATE DATABASE latihan1;
 ```
 ![1](https://github.com/abdulmajid96/lab8_php_database/blob/main/SS/1.PNG)
