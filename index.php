@@ -6,14 +6,8 @@ $sql = 'SELECT * FROM data_barang';
 $result = mysqli_query($conn, $sql);
 
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <title>Data Barang</title>
-</head>
-<body>
+<?php require('header.php'); ?>
+
     <div class="container">
         <h1>Data Barang</h1>
         <a href="tambah.php"><button type="button" style="margin-bottom:1%; margin-top:0%; color: blue;">+ Tambah Barang</button></a>
@@ -49,5 +43,5 @@ $result = mysqli_query($conn, $sql);
             </table>
         </div>
     </div>
-</body>
-</html>
+    
+<?php require('footer.php'); ?>
